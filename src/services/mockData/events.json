@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "nombre": "Festival de Verano 2024",
+    "fecha": "2024-07-15",
+    "tipo": "Festival",
+    "lugar": "Parque Central",
+    "status": "activo",
+    "presupuestoTotal": 150000
+  },
+  {
+    "Id": 2,
+    "nombre": "Concierto Rock Nacional",
+    "fecha": "2024-08-22",
+    "tipo": "Concierto",
+    "lugar": "Estadio Municipal",
+    "status": "planeado",
+    "presupuestoTotal": 200000
+  },
+  {
+    "Id": 3,
+    "nombre": "Gala de Año Nuevo",
+    "fecha": "2024-12-31",
+    "tipo": "Gala",
+    "lugar": "Hotel Grand Plaza",
+    "status": "planeado",
+    "presupuestoTotal": 300000
+  },
+  {
+    "Id": 4,
+    "nombre": "Festival Jazz Primavera",
+    "fecha": "2024-04-10",
+    "tipo": "Festival",
+    "lugar": "Teatro Principal",
+    "status": "cerrado",
+    "presupuestoTotal": 80000
+  }
+]

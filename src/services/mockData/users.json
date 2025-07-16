@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "nombre": "Ana García",
+    "email": "ana.garcia@eventfinance.com",
+    "rol": "admin",
+    "departamento": "Administración",
+    "activo": true
+  },
+  {
+    "Id": 2,
+    "nombre": "Carlos Rodríguez",
+    "email": "carlos.rodriguez@eventfinance.com",
+    "rol": "colaborador",
+    "departamento": "Barras",
+    "activo": true
+  },
+  {
+    "Id": 3,
+    "nombre": "María López",
+    "email": "maria.lopez@eventfinance.com",
+    "rol": "colaborador",
+    "departamento": "Booking",
+    "activo": true
+  },
+  {
+    "Id": 4,
+    "nombre": "Juan Pérez",
+    "email": "juan.perez@eventfinance.com",
+    "rol": "colaborador",
+    "departamento": "Logística",
+    "activo": true
+  },
+  {
+    "Id": 5,
+    "nombre": "Laura Martínez",
+    "email": "laura.martinez@eventfinance.com",
+    "rol": "colaborador",
+    "departamento": "Seguridad",
+    "activo": true
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "Id": 1,
+    "eventoId": "1",
+    "fuente": "boleteria",
+    "monto": 80000,
+    "fecha": "2024-07-15",
+    "descripcion": "Venta de boletos general y VIP"
+  },
+  {
+    "Id": 2,
+    "eventoId": "1",
+    "fuente": "barra",
+    "monto": 25000,
+    "fecha": "2024-07-15",
+    "descripcion": "Ventas de bebidas y comida"
+  },
+  {
+    "Id": 3,
+    "eventoId": "1",
+    "fuente": "patrocinios",
+    "monto": 30000,
+    "fecha": "2024-07-01",
+    "descripcion": "Patrocinio marca de cerveza"
+  },
+  {
+    "Id": 4,
+    "eventoId": "1",
+    "fuente": "reservados",
+    "monto": 15000,
+    "fecha": "2024-07-15",
+    "descripcion": "Área VIP y mesas reservadas"
+  },
+  {
+    "Id": 5,
+    "eventoId": "2",
+    "fuente": "boleteria",
+    "monto": 120000,
+    "fecha": "2024-08-22",
+    "descripcion": "Venta de boletos estadio"
+  },
+  {
+    "Id": 6,
+    "eventoId": "2",
+    "fuente": "patrocinios",
+    "monto": 50000,
+    "fecha": "2024-08-01",
+    "descripcion": "Patrocinio múltiples marcas"
+  }
+]

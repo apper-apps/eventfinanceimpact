@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 1,
+    "nombre": "Producción",
+    "presupuestoAsignado": 50000,
+    "eventoId": "1",
+    "gastado": 32000
+  },
+  {
+    "Id": 2,
+    "nombre": "Barras",
+    "presupuestoAsignado": 30000,
+    "eventoId": "1",
+    "gastado": 18500
+  },
+  {
+    "Id": 3,
+    "nombre": "Talentos",
+    "presupuestoAsignado": 40000,
+    "eventoId": "1",
+    "gastado": 40000
+  },
+  {
+    "Id": 4,
+    "nombre": "Logística",
+    "presupuestoAsignado": 20000,
+    "eventoId": "1",
+    "gastado": 15000
+  },
+  {
+    "Id": 5,
+    "nombre": "Seguridad",
+    "presupuestoAsignado": 10000,
+    "eventoId": "1",
+    "gastado": 8000
+  },
+  {
+    "Id": 6,
+    "nombre": "Producción",
+    "presupuestoAsignado": 80000,
+    "eventoId": "2",
+    "gastado": 25000
+  },
+  {
+    "Id": 7,
+    "nombre": "Sonido",
+    "presupuestoAsignado": 60000,
+    "eventoId": "2",
+    "gastado": 45000
+  },
+  {
+    "Id": 8,
+    "nombre": "Iluminación",
+    "presupuestoAsignado": 40000,
+    "eventoId": "2",
+    "gastado": 20000
+  },
+  {
+    "Id": 9,
+    "nombre": "Talentos",
+    "presupuestoAsignado": 20000,
+    "eventoId": "2",
+    "gastado": 0
+  }
+]

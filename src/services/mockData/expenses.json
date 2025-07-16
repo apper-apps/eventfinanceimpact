@@ -1,0 +1,116 @@
+[
+  {
+    "Id": 1,
+    "eventoId": "1",
+    "rubroId": "1",
+    "usuarioId": "1",
+    "proveedor": "Equipos Audiovisuales SA",
+    "concepto": "Alquiler de equipos de sonido",
+    "monto": 15000,
+    "fecha": "2024-07-01",
+    "archivoUrl": "https://via.placeholder.com/300x400/2563eb/ffffff?text=Factura+001",
+    "tipoGasto": "normal",
+    "status": "aprobado",
+    "datosOCR": {
+      "proveedor": "Equipos Audiovisuales SA",
+      "monto": "15000.00",
+      "concepto": "Alquiler de equipos de sonido",
+      "fecha": "2024-07-01"
+    }
+  },
+  {
+    "Id": 2,
+    "eventoId": "1",
+    "rubroId": "2",
+    "usuarioId": "2",
+    "proveedor": "Distribuidora de Bebidas",
+    "concepto": "Compra de cerveza y bebidas",
+    "monto": 12000,
+    "fecha": "2024-07-05",
+    "archivoUrl": "https://via.placeholder.com/300x400/10b981/ffffff?text=Factura+002",
+    "tipoGasto": "normal",
+    "status": "pendiente",
+    "datosOCR": {
+      "proveedor": "Distribuidora de Bebidas",
+      "monto": "12000.00",
+      "concepto": "Compra de cerveza y bebidas",
+      "fecha": "2024-07-05"
+    }
+  },
+  {
+    "Id": 3,
+    "eventoId": "1",
+    "rubroId": "3",
+    "usuarioId": "3",
+    "proveedor": "Artista Principal",
+    "concepto": "Honorarios artista principal",
+    "monto": 25000,
+    "fecha": "2024-07-10",
+    "archivoUrl": "https://via.placeholder.com/300x400/8b5cf6/ffffff?text=Recibo+003",
+    "tipoGasto": "honorarios",
+    "status": "aprobado",
+    "datosOCR": {
+      "proveedor": "Artista Principal",
+      "monto": "25000.00",
+      "concepto": "Honorarios artista principal",
+      "fecha": "2024-07-10"
+    }
+  },
+  {
+    "Id": 4,
+    "eventoId": "1",
+    "rubroId": "4",
+    "usuarioId": "4",
+    "proveedor": "Transportes Rápidos",
+    "concepto": "Transporte de equipos",
+    "monto": 5000,
+    "fecha": "2024-07-08",
+    "archivoUrl": "https://via.placeholder.com/300x400/f59e0b/ffffff?text=Factura+004",
+    "tipoGasto": "normal",
+    "status": "pendiente",
+    "datosOCR": {
+      "proveedor": "Transportes Rápidos",
+      "monto": "5000.00",
+      "concepto": "Transporte de equipos",
+      "fecha": "2024-07-08"
+    }
+  },
+  {
+    "Id": 5,
+    "eventoId": "1",
+    "rubroId": "5",
+    "usuarioId": "5",
+    "proveedor": "Seguridad Privada",
+    "concepto": "Servicio de seguridad",
+    "monto": 8000,
+    "fecha": "2024-07-12",
+    "archivoUrl": "https://via.placeholder.com/300x400/ef4444/ffffff?text=Factura+005",
+    "tipoGasto": "normal",
+    "status": "aprobado",
+    "datosOCR": {
+      "proveedor": "Seguridad Privada",
+      "monto": "8000.00",
+      "concepto": "Servicio de seguridad",
+      "fecha": "2024-07-12"
+    }
+  },
+  {
+    "Id": 6,
+    "eventoId": "2",
+    "rubroId": "6",
+    "usuarioId": "1",
+    "proveedor": "Escenarios Móviles",
+    "concepto": "Montaje de escenario",
+    "monto": 18000,
+    "fecha": "2024-08-01",
+    "archivoUrl": "https://via.placeholder.com/300x400/2563eb/ffffff?text=Factura+006",
+    "tipoGasto": "normal",
+    "status": "pendiente",
+    "datosOCR": {
+      "proveedor": "Escenarios Móviles",
+      "monto": "18000.00",
+      "concepto": "Montaje de escenario",
+      "fecha": "2024-08-01"
+    }
+  }
+]

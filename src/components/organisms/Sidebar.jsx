@@ -3,7 +3,7 @@ import { cn } from "@/utils/cn";
 import NavigationItem from "@/components/molecules/NavigationItem";
 import ApperIcon from "@/components/ApperIcon";
 
-const Sidebar = ({ isOpen, onClose, className }) => {
+const Sidebar = ({ isOpen, onClose, collapsed, className }) => {
   const navigationItems = [
     { to: "/", icon: "BarChart3", label: "Dashboard" },
     { to: "/eventos", icon: "Calendar", label: "Eventos" },
@@ -14,22 +14,28 @@ const Sidebar = ({ isOpen, onClose, className }) => {
 
   return (
     <>
-      {/* Desktop Sidebar */}
+{/* Desktop Sidebar */}
       <div className={cn(
-        "hidden lg:block w-64 bg-white border-r border-gray-200 h-full",
+        "hidden lg:block bg-white border-r border-gray-200 h-full transition-all duration-300",
+        collapsed ? "w-16" : "w-64",
         className
       )}>
-        <div className="p-6">
-          <div className="flex items-center space-x-3 mb-8">
+        <div className={collapsed ? "p-3" : "p-6"}>
+          <div className={cn(
+            "flex items-center mb-8",
+            collapsed ? "justify-center" : "space-x-3"
+          )}>
             <div className="w-10 h-10 bg-gradient-to-br from-primary to-blue-600 rounded-lg flex items-center justify-center">
               <ApperIcon name="Zap" size={24} className="text-white" />
             </div>
-            <div>
-              <h2 className="text-xl font-bold text-display text-gray-900">
-                EventFinance
-              </h2>
-              <p className="text-sm text-gray-500">AI</p>
-            </div>
+            {!collapsed && (
+              <div>
+                <h2 className="text-xl font-bold text-display text-gray-900">
+                  EventFinance
+                </h2>
+                <p className="text-sm text-gray-500">AI</p>
+              </div>
+            )}
           </div>
           
           <nav className="space-y-2">
@@ -39,6 +45,7 @@ const Sidebar = ({ isOpen, onClose, className }) => {
                 to={item.to}
                 icon={item.icon}
                 label={item.label}
+                collapsed={collapsed}
               />
             ))}
           </nav>
